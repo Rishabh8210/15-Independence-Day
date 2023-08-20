@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(9, 77, 73);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.equipments{
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+    width: 20%;
+    /* background-color: brown; */
+    display: flex;
+    /* flex-direction: column; */
+    
+}
+.dandi{
+    height: 100%;
+    width: 15px;
+    border-radius: 20px;
+    background-color: rgb(167, 167, 167);
+    z-index: 9;
+}
+
+.tricolor{
+    position: relative;
+    top: 2%;
+    left:-356px;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* animation: left 3s linear; */
+}
+.color{
+    width: 100%;
+}
+#safron{
+    height: 65px;
+    background-color: rgb(255, 145, 0);
+}
+#white{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.chakra{
+    height: 100%;
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid blue;
+    animation: rotateChakra 3s linear infinite;
+}
+.stripes{
+    position: absolute;
+    left: 50%;
+    height: 68px;
+    width: 2px;
+    background-color: blue;
+    display: flex;
+    transform-origin: 50%;
+    align-items: center;
+}
+
+.s1{    
+    transform: rotate(-75deg);
+}
+.s2{    
+    transform: rotate(-60deg);
+}
+.s3{    
+    transform: rotate(-45deg);
+}
+.s4{    
+    transform: rotate(-30deg);
+}
+.s5{    
+    transform: rotate(-15deg);
+} 
+.s6{    
+    transform: rotate(0deg);
+}
+.s7{    
+    transform: rotate(15deg);
+}
+.s8{    
+    transform: rotate(30deg);
+}
+
+.s9{    
+    transform: rotate(45deg);
+}
+.s10{    
+    transform: rotate(60deg);
+}
+.s11{    
+    transform: rotate(75deg);
+}
+.s12{
+    transform: rotate(90deg);
+}
+
+#green{
+    height: 65px;
+    background-color: rgb(0, 255, 0);
+}
+
+
+@keyframes rotateChakra {
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.unfrulFlag{
+    margin-left: 500px;
+    height: 150px;
+    text-align: center;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* background-color: violet; */
+}
+
+.unfrulFlag h1{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.unfrulFlag span{
+    color: rgb(60, 255, 0);
+}
+
+.btns{
+    height: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: yellow; */
+    margin-top: 10px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    border : 0px ;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(208, 244, 3);
+    
+}
+/* @keyframes left {
+    0%{
+        transform: translateX(-100%);
+    }
+} */
