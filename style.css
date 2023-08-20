@@ -178,8 +178,36 @@ button:hover{
     background-color: rgb(208, 244, 3);
     
 }
-/* @keyframes left {
-    0%{
-        transform: translateX(-100%);
+
+@media (max-width:400px) {
+    .main{
+        align-items: center;
     }
-} */
+    .equipments{
+        width: 90%;
+        height: 60%;
+    }    
+    .tricolor{
+        left:-342px;
+    }
+    .unfrulFlag{
+        margin-left: 0px;
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .unfrulFlag h1{
+        font-size: 40px;
+    }
+
+    .btns{
+        height: 40px;
+        width: 90%;
+        margin-top: 20px;
+    }
+    button{
+        width: 130px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+}
