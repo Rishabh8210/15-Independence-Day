@@ -179,7 +179,7 @@ button:hover{
     
 }
 
-@media (max-width:500px) {
+@media (max-width:425px) {
     .main{
         align-items: center;
     }
@@ -188,7 +188,7 @@ button:hover{
         height: 60%;
     }    
     .tricolor{
-        left:-342px;
+        left:-356px;
     }
     .unfrulFlag{
         margin-left: 0px;
@@ -211,3 +211,4 @@ button:hover{
         font-weight: bolder;
     }
 }
+
